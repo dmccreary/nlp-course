@@ -19,6 +19,7 @@ nav:
       - prompts/30-doc-classification.md
       - prompts/31-doc-classification-code.md
   - Glossary: glossary.md
+  - License: license.md
   - How We Built This Site: how-we-built-this-site.md
   - References: references.md
   - Contact: contact.md
