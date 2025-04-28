@@ -1,0 +1,66 @@
+site_name: NLP with AI
+site_description: 'A college-level course on Natural Language Processing with AI'
+site_author: 'Dan McCreary'
+repo_name: 'GitHub Repo'
+site_url: 'https://dmccreary.github.io/nlp-course/'
+repo_url: 'https://github.com/dmccreary/nlp-course'
+edit_uri: 'blob/master/docs'
+
+nav:
+  - Home: index.md
+  - Prompts:
+      - Introduction: prompts/index.md
+      - Concept Enumeration: prompts/concept-enumeration.md
+      - Prompt Design Patterns: prompts/prompt-design-patterns.md
+      - prompts/01-course-outline.md
+      - prompts/02-course-description.md
+      - prompts/02-modern-course.md
+      - prompts/03-concept-enumeration.md
+      - prompts/30-doc-classification.md
+      - prompts/31-doc-classification-code.md
+  - Glossary: glossary.md
+  - How We Built This Site: how-we-built-this-site.md
+  - References: references.md
+  - Contact: contact.md
+ 
+# CoderDojo Microsite Standards from here down
+
+theme:
+  name: material
+  extra_css:
+    - styles/custom.css
+  logo: img/logo.png
+  # favicon: img/my-icon.png
+  palette:
+    primary: 'blue'
+    accent: 'orange'
+  include_sidebar: true
+  features:
+    - content.code.copy
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+    # this adds the prev and next icons in the footer
+    - navigation.footer
+    - content.action.edit
+plugins:
+  - search
+#  - social
+markdown_extensions:
+  - admonition
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.highlight:
+      linenums: true
+extra_css:
+   - css/extra.css
+#extra:
+#  analytics:
+#    provider: google
+    # https://analytics.google.com/analytics/web/#/a1420179p349994530/admin/streams/table/4433129821
+#    property: G-XXXX
